@@ -78,7 +78,7 @@ Vector.prototype.mult = function(factor) {
     this.y *= factor;
 }
 
-// normalise the vector (make its norm = 1)
+// normalize the vector (make its norm = 1)
 Vector.prototype.norm = function() {
     this.saveHistory();
     let mag = this.mag();
